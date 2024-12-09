@@ -4,12 +4,14 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import DropdownMenu from './components/DropdownMenu'
 import Navbar from './components/Navbar'
+import Banner from './components/Banner'
 
 function App() {
   return (
     <div>
+      <Banner />
       <Navbar />
-      {/*<DropdownMenu />*/}
+      
     </div>
   )
 
